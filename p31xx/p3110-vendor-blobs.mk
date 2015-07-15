@@ -15,7 +15,7 @@
 
 LOCAL_PATH := vendor/samsung
 
-# Prebuilt libraries that are needed to build open-source libraries
+# Prebuilt libraries needed to build open-source libraries
 PRODUCT_COPY_FILES := \
     $(LOCAL_PATH)/tab2-common/system/lib/libril.so:obj/lib/libril.so \
     $(LOCAL_PATH)/tab2-common/system/lib/libsecril-client.so:obj/lib/libsecril-client.so
@@ -25,4 +25,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/tab2-common/system/lib/libsecril-client.so:system/lib/libsecril-client.so
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/p31xx/p3110/system/lib/hw/sensors.omap4.so:system/lib/hw/sensors.omap4.so
+	$(LOCAL_PATH)/p31xx/p3110/system/lib/hw/sensors.omap4.so:system/lib/hw/sensors.omap4.so

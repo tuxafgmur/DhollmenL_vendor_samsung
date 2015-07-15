@@ -15,16 +15,15 @@
 
 LOCAL_PATH := vendor/samsung
 
-# Prebuilt libraries that are needed to build open-source libraries
+# Prebuilt libraries needed to build open-source libraries
 PRODUCT_COPY_FILES := \
     $(LOCAL_PATH)/tab2-common/system/lib/libril.so:obj/lib/libril.so \
     $(LOCAL_PATH)/tab2-common/system/lib/libsecril-client.so:obj/lib/libsecril-client.so
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/tab2-common/system/lib/libril.so:system/lib/libril.so \
-    $(LOCAL_PATH)/tab2-common/system/lib/libsecril-client.so:system/lib/libsecril-client.so \
+    $(LOCAL_PATH)/tab2-common/system/lib/libsecril-client.so:system/lib/libsecril-client.so
 
-# TvOut
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/p51xx/p5110/system/bin/bintvoutservice:system/bin/bintvoutservice \
     $(LOCAL_PATH)/p51xx/p5110/system/etc/init.d/70-BinTvService:system/etc/init.d/70-BinTvService \

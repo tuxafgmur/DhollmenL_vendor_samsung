@@ -1,4 +1,5 @@
 # Copyright (C) 2012 The CyanogenMod Project
+# Tuxafgmur - Dhollmen
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,7 +18,6 @@ LOCAL_PATH := vendor/samsung
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/p51xx/common/system/bin/gpsd:system/bin/gpsd \
     $(LOCAL_PATH)/tab2-common/system/bin/geomagneticd:system/bin/geomagneticd \
-    $(LOCAL_PATH)/tab2-common/system/bin/hostapd:system/bin/hostapd \
     $(LOCAL_PATH)/tab2-common/system/bin/orientationd:system/bin/orientationd \
     $(LOCAL_PATH)/tab2-common/system/bin/smc.ini:system/bin/smc.ini \
     $(LOCAL_PATH)/tab2-common/system/bin/smc_pa.ift:system/bin/smc_pa.ift
