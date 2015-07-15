@@ -25,8 +25,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/p31xx/common/system/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
     $(LOCAL_PATH)/p31xx/common/system/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
-    $(LOCAL_PATH)/tab2-common/system/etc/wifi/bcmdhd_p2p.bin:system/etc/wifi/bcmdhd_p2p.bin \
     $(LOCAL_PATH)/p31xx/common/system/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
+    $(LOCAL_PATH)/tab2-common/system/etc/wifi/bcmdhd_p2p.bin:system/etc/wifi/bcmdhd_p2p.bin \
     $(LOCAL_PATH)/tab2-common/system/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     $(LOCAL_PATH)/tab2-common/system/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt
 

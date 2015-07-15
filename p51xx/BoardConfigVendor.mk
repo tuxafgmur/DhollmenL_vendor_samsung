@@ -14,3 +14,11 @@
 
 USE_CAMERA_STUB := false
 BOARD_USES_GENERIC_AUDIO := false
+
+# Extra actions to do in install
+PRODUCT_COPY_FILES += \
+    vendor/samsung/tab2-common/prebuilt/romextratool.sh:install/bin/romextratool.sh
+
+# Extra actions to do after end install
+PRODUCT_COPY_FILES += \
+    vendor/samsung/tab2-common/prebuilt/romendtool.sh:install/bin/romendtool.sh
