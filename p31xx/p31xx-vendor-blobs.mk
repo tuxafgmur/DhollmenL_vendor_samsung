@@ -46,7 +46,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/tab2-common/system/lib/libOMX.TI.DUCATI1.VIDEO.H264E.so:system/lib/libOMX.TI.DUCATI1.VIDEO.H264E.so \
     $(LOCAL_PATH)/tab2-common/system/lib/libOMX.TI.DUCATI1.VIDEO.MPEG4E.so:system/lib/libOMX.TI.DUCATI1.VIDEO.MPEG4E.so \
     $(LOCAL_PATH)/tab2-common/system/lib/libOMX_Core.so:system/lib/libOMX_Core.so \
-    $(LOCAL_PATH)/tab2-common/system/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
     $(LOCAL_PATH)/tab2-common/system/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     $(LOCAL_PATH)/tab2-common/system/lib/libtiutils.so:system/lib/libtiutils.so
 
