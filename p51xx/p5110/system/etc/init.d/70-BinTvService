@@ -2,4 +2,4 @@
 # Tab2 p5113 Tv Out script
 # CopyRight 2014 - 2015 Tuxafgmur - Dhollmen
 
-[ -f /sys/devices/platform/omapdss/display1/sec_timing ] && start TvoutService_C
+[ -f /sys/devices/platform/omapdss/display1/sec_timing -o -f /dev/graphics/fb1 ] && start TvoutService_C
